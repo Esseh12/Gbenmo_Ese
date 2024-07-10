@@ -1,0 +1,71 @@
+.hero__img__container{
+    background-image: url("../images/backgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat",;
+}
+.social__media__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40vh;
+    background-color: #fffcfc;
+    padding: 1rem 1rem 1rem 0rem;
+}
+.social__media__links{
+    padding: 0.5rem;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: rgb(41, 41, 41);
+}
+.social__media__links:hover{
+    color: var(--purple);
+}
+.hero__content__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__content__container h2{
+    margin-top: 20vh;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 5px;
+}
+.hero__content__container p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.btn{
+    background-color: var(--purple);
+    border: var(--purple);
+    border-radius: 0.3rem;
+    width: 15vw;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fffcfc;
+    position: relative;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    animation-name: moveButton;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes moveButton {
+    from {transform: translateY(0);}
+    to {transform: translateY(-2px);}
+}

@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+.section{
+    scroll-margin-top: 4rem;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn {
+    background-color: var(--purple);
+    border: var(--purple);
+    border-radius: 0.3rem;
+    width: 15vw;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fffcfc;
+    position: relative;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0px 3px rgba(208, 204, 204, 0.5);
+}
+
+.btn:hover {
+    animation-name: moveButton;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveButton {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-2px);
+    }
+}
