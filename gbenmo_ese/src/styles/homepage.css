@@ -1,14 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
-.section{
-    scroll-margin-top: 4rem;
+section{
+    scroll-margin-top: 5rem;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
-.btn {
+.btn{
     background-color: var(--purple);
     border: var(--purple);
     border-radius: 0.3rem;
@@ -17,9 +17,8 @@ html{
     font-size: 1.1rem;
     font-weight: 700;
     color: #fffcfc;
-    position: relative;
     transition: transform 1s ease-in-out;
-    box-shadow: 0px 3px rgba(208, 204, 204, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
@@ -36,5 +35,25 @@ html{
 
     to {
         transform: translateY(-2px);
+    }
+}
+@media(min-width: 320px) and (max-width: 1024px) {
+    .btn{
+        width: 10rem;
+        font-size: 1rem;
+    }
+    section{
+    scroll-margin-top: 3rem;
+    }
+}
+@media(min-width: 600px) and (max-width: 1280px) {
+    .btn {
+        width: 10rem;
+        padding: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    section {
+        scroll-margin-top: 3rem;
     }
 }
