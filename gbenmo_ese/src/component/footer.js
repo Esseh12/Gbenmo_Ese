@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='footer_subcontainer1'> 
                         <div>
                             <h2>Ese Gbenmo</h2>
-                            <p>A Frontend focused Web Developer building the Frontend of Websites and<br />Web Applications that leads to the success of the overall product</p>
+                            <p>A Frontend focused Web Developer building the Frontend of Websites and<br /> Web Applications that leads to the success of the overall product</p>
                         </div>
                         <div>
                             <h2>SOCIAL</h2>
