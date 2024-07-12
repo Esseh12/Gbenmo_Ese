@@ -84,7 +84,7 @@
 }
 @media(min-width: 320px) and (max-width: 1024px) {
     #about{
-        height: 135vh;
+        height: 138vh;
     }
     .about__section__content1 h2{
         margin-bottom: 0.5rem;
