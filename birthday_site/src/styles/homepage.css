@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.main__container{
+    background-color: #001f3f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    perspective: 1000px;
+}
+.typewriter h1{
+    font-size: 1.85rem;
+    color: #fff;
+    overflow: hidden;
+    border-right: 0.15rem solid #97bce0;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 0.5s  infinite;
+}
+@keyframes typing {
+    from { width: 0}
+    to {width: 100%}
+}
+@keyframes blink-caret {
+    from, to{ border-color: transparent; }
+    50%{ border-color: #97bce0;}
+}
+/* button styling */
+.button__container{
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+.button__container button{
+    font-family: monospace;
+    padding: 0.78rem;
+    background-color: #ecc800;
+    border: 1px solid #ecc800;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
