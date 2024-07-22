@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/mail.css';
 import Envelope from '../images/closedMail.png';
-import OpenEnvelope from '../images/openMail.jpg';
+import OpenEnvelope from '../images/openMail.png';
 import Stamp from '../images/stamp.png';
 import HandWrittenNote from '../images/handwrittenNote.png';
 
@@ -13,10 +13,6 @@ const Mail = () => {
 
     const handleClick = () => {
         setIsOpen(true);
-    }
-
-    const handleButtonClick = () => {
-        navigate('/collage');
     }
 
     useEffect(() => {
@@ -51,9 +47,6 @@ const Mail = () => {
                             alt="handwritten note" 
                             className="handwritten-note"
                         />
-                        <button className="done-reading-btn" onClick={handleButtonClick}>
-                            Done reading?
-                        </button>
                     </div>
                 )}
                 {!isOpen && (
