@@ -140,8 +140,8 @@
     align-items: center;
 }
 
-.collage_img_subcontainer {
-    width: 22rem;
+.collage_img_subcontainer img{
+    width: 18rem;
     height: auto;
 }
 
