@@ -19,7 +19,7 @@ const Confetti = () => {
     useEffect(() => {
         const confettiTimeout = setTimeout(() => {
             setIsConfettiRunning(false);
-        }, 3400); 
+        }, 4500); 
 
         return () => clearTimeout(confettiTimeout);
     }, []);

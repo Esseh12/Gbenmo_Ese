@@ -58,42 +58,7 @@
     cursor: pointer;
     animation: dance 2s infinite;
 }
-h1{
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.7rem;
-    overflow: hidden;
-    border-right: 0.15rem solid #97bce0;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.15em;
-    animation: 
-    typing 3.5s steps(30, end),
-    blink-caret 0.5s  infinite;
-}
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-@keyframes blink-caret {
-
-    from,
-    to {
-        border-color: transparent;
-    }
-
-    50% {
-        border-color: #97bce0;
-    }
-}
 
 @keyframes popout {
     from {

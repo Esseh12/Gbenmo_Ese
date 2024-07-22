@@ -49,3 +49,23 @@
     border-radius: 6px;
     font-size: 1.3rem;
 }
+
+
+/* collage page */
+.collage_img_container {
+    background-color: #b5cfe9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collage_img_subcontainer {
+    width: 22rem;
+    height: auto;
+}
+
+.collage_img_content {
+    margin-top: 2rem;
+}

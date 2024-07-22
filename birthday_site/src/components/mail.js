@@ -15,6 +15,10 @@ const Mail = () => {
         setIsOpen(true);
     }
 
+    const handleButtonClick = () => {
+        navigate('/collage');
+    }
+
     useEffect(() => {
         if (isOpen) {
             const timer = setTimeout(() => {
@@ -47,6 +51,9 @@ const Mail = () => {
                             alt="handwritten note" 
                             className="handwritten-note"
                         />
+                        <button className="done-reading-btn" onClick={handleButtonClick}>
+                            Done reading?
+                        </button>
                     </div>
                 )}
                 {!isOpen && (
