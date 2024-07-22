@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/mail.css';
+import '../styles/homepage.css';
 import Envelope from '../images/closedMail.png';
 import OpenEnvelope from '../images/openMail.png';
 import Stamp from '../images/stamp.png';
