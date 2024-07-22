@@ -148,10 +148,3 @@
 .collage_img_content {
     margin-top: 2rem;
 }
-
-@media(max-width: 480px) {
-    .collage_img_subcontainer img {
-        width: 15rem;
-        height: auto;
-    }
-}
