@@ -44,7 +44,7 @@ const Project = () => {
                                 <h3>
                                     Backroad Project
                                 </h3>
-                                <p>Backroad is a dynamic travel agency platform that offers personalized travel experiences, <br /> helping users discover and book unforgettable trips to unique destinations.<br /> Built using HTML, CSS, React.js, and responsive web design for seamless navigation across devices.</p>
+                                <p>Backroad is a dynamic travel agency platform that offers personalized <br /> travel experiences, helping users discover and book unforgettable <br /> trips  to unique destinations. Built using HTML, CSS, React.js, and <br /> responsive web design  for seamless navigation across devices.</p>
                                 <button className="btn main__btn">VIEW PROJECT</button>
                             </div>
                         </div>
