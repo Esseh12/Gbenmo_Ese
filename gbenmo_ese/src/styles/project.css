@@ -107,4 +107,23 @@
         width: 20rem;
         height: auto;
     }
+
+    .project__container1 h3{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project__container1 p{
+        padding: 0rem 1rem;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .project__container1 p br{
+        display: none;
+    }
+
+    .main__btn{
+        margin-top: 0rem;
+    }
 }
