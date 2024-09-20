@@ -1,6 +1,7 @@
 import '../styles/project.css';
 import projectOne from '../images/projectOne.png';
 import projectTwo from '../images/projectTwo.png';
+import projectThree from '../images/projectThree.png';
 
 
 const Project = () => {
@@ -28,6 +29,17 @@ const Project = () => {
 
                         <div className="project__container1">
                             <img src={projectTwo} alt="project1" />
+                            <div>
+                                <h3>
+                                    Metafora
+                                </h3>
+                                <p>Metafora is an innovative aggregate transport platform that brings <br /> multiple transport companies together, allowing users compare <br />  prices easily  and book seamless trips all in one place.<br /> Built using HTML, CSS, React.js, and responsive web design. </p>
+                                <button className="btn main__btn" onClick={() => {window.open('https://metafora-eta.vercel.app/', '_blank')}}>VIEW PROJECT</button>
+                            </div>
+                        </div>
+
+                        <div className="project__container1">
+                            <img src={projectThree} alt="project1" />
                             <div>
                                 <h3>
                                     Metafora
