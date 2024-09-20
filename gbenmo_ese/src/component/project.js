@@ -44,7 +44,7 @@ const Project = () => {
                                 <h3>
                                     Backroad Project
                                 </h3>
-                                <p>Metafora is an innovative aggregate transport platform that brings <br /> multiple transport companies together, allowing users compare <br />  prices easily  and book seamless trips all in one place.<br /> Built using HTML, CSS, React.js, and responsive web design. </p>
+                                <p>Backroad is a dynamic travel agency platform that offers personalized travel experiences, <br /> helping users discover and book unforgettable trips to unique destinations.<br /> Built using HTML, CSS, React.js, and responsive web design for seamless navigation across devices.</p>
                                 <button className="btn main__btn">VIEW PROJECT</button>
                             </div>
                         </div>
