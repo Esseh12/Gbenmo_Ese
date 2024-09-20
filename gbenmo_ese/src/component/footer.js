@@ -1,4 +1,4 @@
-import '../styles/footer.css';
+import '../styles/homepage.css';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaTwitterSquare } from "react-icons/fa";

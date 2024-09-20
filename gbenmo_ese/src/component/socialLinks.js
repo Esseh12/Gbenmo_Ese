@@ -1,4 +1,4 @@
-import '../styles/hero.css';
+import '../styles/homepage.css';
 import { BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

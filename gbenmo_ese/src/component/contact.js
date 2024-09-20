@@ -1,6 +1,34 @@
-import '../styles/contact.css';
+import '../styles/homepage.css';
+import emailjs from "emailjs-com";
+import { useRef } from "react";
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8uzuran",
+        "template_y5c9ske",
+        form.current,
+        "mQ786bE_HqQUYLj1u"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send the message. Please try again.");
+        }
+      );
+
+    e.target.reset();
+  };
 
     return (
         <>
@@ -12,15 +40,15 @@ const Contact = () => {
                         <p>Feel free to Contact me by submitting the form below and i will get back to you<br />as soon as possible</p>
                     </div>
                     <div className="contact__section__container2">
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <div className='form__container'>
                                 <label for="name">Name</label>
-                                <input type='text' placeholder='Enter Your Name' />
+                                <input type='text' placeholder='Enter Your Name' name="user_name"/>
                                 <label for="email">Email</label>
-                                <input type="email" placeholder='Enter Your Email' required />
+                                <input type="email" placeholder='Enter Your Email' required name="user_email"/>
                                 <label for="message">Message</label>
-                                <input type="text" placeholder='Enter Your Message' className='message__input' required />
-                                <button className='btn submit__btn'>SUBMIT</button>
+                                <textarea type="text" placeholder='Enter Your Message' className='message__input' required name="message"/>
+                                <button className='btn submit__btn' type='submit'>SUBMIT</button>
                             </div>
                         </form>
                     </div>

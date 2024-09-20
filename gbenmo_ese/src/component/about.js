@@ -1,4 +1,4 @@
-import "../styles/about.css";
+import "../styles/homepage.css";
 import { FaExclamation } from "react-icons/fa";
 
 const About = () => {
