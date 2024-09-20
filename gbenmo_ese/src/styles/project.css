@@ -85,6 +85,7 @@
     .project__section__container1 p {
         font-size: 1rem;
         line-height: 26px;
+        margin-bottom: 1.6rem;
     }
 
     .project__section__container1 p br{
@@ -98,8 +99,8 @@
     .project__container1{
         flex-direction: column;
         text-align: center;
-        margin-bottom: 1.5rem;
-        margin-top: 2rem;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
     }
 
     .project__container1 img{

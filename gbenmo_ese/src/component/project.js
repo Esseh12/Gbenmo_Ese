@@ -3,7 +3,7 @@ import projectOne from '../images/projectOne.png';
 import projectTwo from '../images/projectTwo.png';
 
 
-const Project = () => { 
+const Project = () => {
 
     return (
         <>
@@ -22,7 +22,7 @@ const Project = () => {
                                     Portfolio Website
                                 </h3>
                                 <p>Built using HTML, CSS, React.js, and responsive web design. <br /> It highlights my ability to create visually appealing <br /> and user-friendly interfaces that adapt seamlessly across devices, <br /> making it a valuable asset for any frontend development team.</p>
-                                <button className="btn main__btn">VIEW PROJECT</button>
+                                <button className="btn main__btn" onClick={() => {window.open('https://gbenmo-ese.vercel.app/', '_blank')}}>VIEW PROJECT</button>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ const Project = () => {
                                     Metafora
                                 </h3>
                                 <p>Metafora is an innovative aggregate transport platform that brings <br /> multiple transport companies together, allowing users compare <br />  prices easily  and book seamless trips all in one place.<br /> Experience an hassle-free experience for every journey.</p>
-                                <button className="btn main__btn">VIEW PROJECT</button>
+                                <button className="btn main__btn" onClick={() => {window.open('https://metafora-eta.vercel.app/', '_blank')}}>VIEW PROJECT</button>
                             </div>
                         </div>
                     </div>
