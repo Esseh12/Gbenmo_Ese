@@ -46,7 +46,7 @@ const Navbar = () => {
                         <ul className="navbar__links_subcontainers"  ref={navLinksRef}>
                             <li className="navbar__items"><a href="/">HOME</a></li>
                             <li className="navbar__items"><a href="#about">ABOUT</a></li>
-                            <li className="navbar__items"><a href="#more">PROJECTS</a></li>
+                            <li className="navbar__items"><a href="#project">PROJECTS</a></li>
                             <li className="navbar__items last"><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>

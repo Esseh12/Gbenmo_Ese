@@ -1,8 +1,12 @@
 import SocialLinks from './socialLinks';
 import "../styles/homepage.css";
 
+
 const Hero = () => {
-    
+
+    const handleNavigateToProjects = () => {
+        window.location.href = "#project";
+    };
 
     return (
         <>
@@ -13,7 +17,7 @@ const Hero = () => {
                         <div className="hero__content__container">
                             <h2><h2 class="wave">👋🏾</h2>, I'M ESE GBENMO</h2>
                             <p>A Results-Oriented web developer building and maintaining Websites and <br />Web Applications <span>that contribute to product success.</span></p>
-                            <button className="btn">PROJECTS</button>
+                            <button className="btn" onClick={handleNavigateToProjects}>PROJECTS</button>
                         </div>
                     </div>
                 </div>
